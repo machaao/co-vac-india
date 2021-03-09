@@ -1,0 +1,14 @@
+{
+    "wit$greetings": [
+        "Hello",
+        "How are you?",
+        "Hyeee",
+        "Hello, I am a bot!"
+    ],
+
+    "wit$bye": [
+        "See you soon.",
+        "Byos!",
+        "Nice to meet you!"
+    ]
+}
