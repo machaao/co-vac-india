@@ -1,4 +1,4 @@
-# Machaao Wit Template
+# Machaao Dialogflow Template
 
 ## Getting Started
 
