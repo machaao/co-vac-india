@@ -32,19 +32,3 @@ def custom_request_handler(request):
                 "user_id": user_id,
                 "messaging": messaging
             }
-
-
-def get_trait(wit_response):
-    wit_response = wit_response.get('traits', None)
-    if not wit_response:
-        return False
-    trait = wit_response.keys()
-    trait = list(trait)[0]
-    return trait, wit_response[trait][0]["confidence"]
-
-def get_chatbot_response(wit_res):
-    try:
-        _res = random.choice(actions.get(wit_res[0]))
-    except TypeError:
-        _res = "I am still learning, didn't get you, Sorry :)"
-    return _res
