@@ -1,4 +1,4 @@
-# Machaao Dialogflow Template
+# A simple Dialogflow template for running a custom chatbot on your website
 
 ## Getting Started
 
