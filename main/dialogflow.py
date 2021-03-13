@@ -1,5 +1,6 @@
 import requests
 import json
+from google.cloud import dialogflow
 
 
 class Dialogflow:
@@ -9,21 +10,27 @@ class Dialogflow:
         self.SESSION_ID = SESSION_ID
         self.URL = f"https://dialogflow.googleapis.com/v2/projects/{PROJECT_ID}/agent/sessions/{SESSION_ID}:detectIntent"
 
-    def send_message(self, message, lang="en"):
-        headers = {
-            "Content-Type": "application/json; charset=utf-8",
-            "Authorization": f"Bearer {self.AUTH_TOKEN}",
-        }
+    def send_message(self, text, language_code="en"):
 
-        data = {
-            "queryInput": {
-                "text": {
-                    "text": message,
-                    "languageCode": lang
-                }
-            }
-        }
+        session_client = dialogflow.SessionsClient()
 
-        _resp = requests.post(self.URL, headers=headers, data=json.dumps(data)) 
+        session = session_client.session_path(self.PROJECT_ID, self.SESSION_ID)
+        print("Session path: {}\n".format(session))
 
-        return _resp.json()
+        text_input = dialogflow.TextInput(text=text, language_code=language_code)
+
+        query_input = dialogflow.QueryInput(text=text_input)
+
+        response = session_client.detect_intent(
+            request={"session": session, "query_input": query_input}
+        )
+
+        print("=" * 20)
+        print("Query text: {}".format(response.query_result.query_text))
+        print(
+            "Detected intent: {} (confidence: {})\n".format(
+                response.query_result.intent.display_name,
+                response.query_result.intent_detection_confidence,
+            )
+        )
+        return response.query_result.fulfillment_text

@@ -1,7 +1,13 @@
 from main import app, machaao, dflow
 from flask import request, Response
 import os, json
-from .helper import custom_request_handler, get_trait, get_chatbot_response
+from .helper import custom_request_handler
+
+@app.route('/')
+def test():
+    query = request.args.get('text')
+    return dflow.detect_intent_texts(query)
+
 
 @app.route('/machaao/incoming', methods=["POST"])
 def index():
@@ -11,14 +17,14 @@ def index():
     message = incoming_data["messaging"]
     message = message[0]["message_data"]["text"]
 
-    processed_message = dflow.send_message(message)
+    processed_message = dflow.detect_intent_texts(message)
     print(processed_message)
     # resp = processed_message["queryResult"]["fulfillmentText"]
 
     payload = {
         "identifier": "BROADCAST_FB_QUICK_REPLIES",
         "users": [user_id],
-        "message": {"text": "resp"},
+        "message": {"text": processed_message},
     }
 
     # Read more about APIs here: https://ganglia.machaao.com/api-docs/#/

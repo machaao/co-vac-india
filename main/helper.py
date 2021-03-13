@@ -3,11 +3,6 @@ import jwt
 import os
 import random
 
-_f = open(os.getcwd() + "/main/actions.json")
-
-actions = json.load(_f)
-
-
 def custom_request_handler(request):
     api_token = request.headers["api_token"]
     user_id = request.headers["user_id"]
