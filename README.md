@@ -1,4 +1,4 @@
-# Machaao Dialogflow Template
+# A simple dialogflow template for running a custom chatbot on your website
 
 ## Getting Started
 
@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/machaao/dialogflow-chatapp-template.git
 
-cd machaao-dialogflow-template
+cd dialogflow-chatapp-template
 ```
 
 2. Installing Dependencies
@@ -17,8 +17,8 @@ pip install -r requirements.txt
 3. Environment Variable  
 Create file with name ```.env```
 ```bash
-DIALOGFLOW_AUTH_TOKEN=<YOU-DIALOGFLOW-ACCESS-TOKEN>
-MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY>
+DIALOGFLOW_AUTH_TOKEN=<YOUR_DIALOGFLOW_AUTH_TOKEN>
+MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> portal.messengerx.io)
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
 
