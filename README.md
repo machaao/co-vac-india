@@ -4,7 +4,7 @@
 
 1. Clone this repo
 ```bash
-git clone https://github.com/machaao/machaao-dialogflow-template.git
+git clone https://github.com/machaao/dialogflow-chatapp-template.git
 
 cd machaao-dialogflow-template
 ```
