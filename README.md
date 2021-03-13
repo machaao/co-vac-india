@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Create file with name ```.env```
 ```bash
 DIALOGFLOW_AUTH_TOKEN=<YOUR_DIALOGFLOW_AUTH_TOKEN>
-MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY>
+MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> portal.messengerx.io)
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
 
