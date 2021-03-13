@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/machaao/dialogflow-chatapp-template.git
 
-cd machaao-dialogflow-template
+cd dialogflow-chatapp-template
 ```
 
 2. Installing Dependencies
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 3. Environment Variable  
 Create file with name ```.env```
 ```bash
-DIALOGFLOW_AUTH_TOKEN=<YOU-WIT-ACCESS-TOKEN>
+DIALOGFLOW_AUTH_TOKEN=<YOUR_DIALOGFLOW_AUTH_TOKEN>
 MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY>
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
