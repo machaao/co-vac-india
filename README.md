@@ -1,4 +1,4 @@
-# A simple dialogflow template for running a custom chatbot on your website
+# A basic dialogflow template for running a custom chatbot on your website or android app
 
 ## Getting Started
 
