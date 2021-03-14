@@ -18,7 +18,7 @@ pip install -r requirements.txt
 - [Get Google Private Key](https://cloud.google.com/dialogflow/es/docs/quick/setup)
 - [Get MessengerX.io Auth Token](https://blog.messengerx.io/tutorials/get-api-token-for-messengerx-io-chat-app-marketplace/)
 
-3. Environment Variable  
+4. Environment Variable  
 Create file with name ```.env```
 ```bash
 GOOGLE_APPLICATION_CREDENTIALS=<YOUR_AUTH_KEY_PATH>
@@ -26,7 +26,7 @@ MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> port
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
 
-4. Running Server
+5. Running Server
 ```bash
 machaao run -p 5000 -t <YOU-MESSENGERX-API-KEY>
 ```
