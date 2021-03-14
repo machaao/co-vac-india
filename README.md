@@ -29,7 +29,9 @@ MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> port
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
 
-6. Running Server
+6. Running locally 
 ```bash
 machaao run -p 5000 -t <YOU-MESSENGERX-API-KEY>
 ```
+
+7. To run for production, please write to us @ [support@messengerx.io]
