@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 3. Getting Required Tokens
-- [Get Google Auth Token](https://cloud.google.com/dialogflow/es/docs/quick/setup)
+- [Get Google Private Key](https://cloud.google.com/dialogflow/es/docs/quick/setup)
 - [Get MessengerX.io Auth Token](https://blog.messengerx.io/tutorials/get-api-token-for-messengerx-io-chat-app-marketplace/)
 
 3. Environment Variable  
