@@ -34,4 +34,4 @@ MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 machaao run -p 5000 -t <YOU-MESSENGERX-API-KEY>
 ```
 
-7. To run for production, please write to us @ [support@messengerx.io]
+7. To run for production, please contact us via [support@messengerx.io]
