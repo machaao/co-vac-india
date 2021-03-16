@@ -4,11 +4,9 @@ from google.cloud import dialogflow
 
 
 class Dialogflow:
-    def __init__(self, AUTH_TOKEN, PROJECT_ID, SESSION_ID):
+    def __init__(self, AUTH_TOKEN, PROJECT_ID):
         self.AUTH_TOKEN = AUTH_TOKEN
         self.PROJECT_ID = PROJECT_ID
-        self.SESSION_ID = SESSION_ID
-        self.URL = f"https://dialogflow.googleapis.com/v2/projects/{PROJECT_ID}/agent/sessions/{SESSION_ID}:detectIntent"
 
     def send_message(self, text, user_id, language_code="en"):
 

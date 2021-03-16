@@ -9,6 +9,6 @@ load_dotenv(find_dotenv())
 app = Flask(__name__)
 
 machaao = Machaao(os.environ['MESSENGERX_API_TOKEN'], os.environ['MESSENGERX_BASE_URL'])
-dflow = dialogflow.Dialogflow(os.environ['DIALOGFLOW_AUTH_TOKEN'], "<YOUR-PROJECT-ID>", "<SESSION-ID>")
+dflow = dialogflow.Dialogflow(os.environ['DIALOGFLOW_AUTH_TOKEN'], "<YOUR-PROJECT-ID>")
 
 from main import urls
