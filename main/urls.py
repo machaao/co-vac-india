@@ -17,7 +17,7 @@ def index():
     message = incoming_data["messaging"]
     message = message[0]["message_data"]["text"]
 
-    processed_message = dflow.detect_intent_texts(message)
+    processed_message = dflow.detect_intent_texts(message, user_id)
     print(processed_message)
     # resp = processed_message["queryResult"]["fulfillmentText"]
 

@@ -10,11 +10,11 @@ class Dialogflow:
         self.SESSION_ID = SESSION_ID
         self.URL = f"https://dialogflow.googleapis.com/v2/projects/{PROJECT_ID}/agent/sessions/{SESSION_ID}:detectIntent"
 
-    def send_message(self, text, language_code="en"):
+    def send_message(self, text, user_id, language_code="en"):
 
         session_client = dialogflow.SessionsClient()
 
-        session = session_client.session_path(self.PROJECT_ID, self.SESSION_ID)
+        session = session_client.session_path(self.PROJECT_ID, user_id)
         print("Session path: {}\n".format(session))
 
         text_input = dialogflow.TextInput(text=text, language_code=language_code)
