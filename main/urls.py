@@ -22,7 +22,6 @@ def index():
     # resp = processed_message["queryResult"]["fulfillmentText"]
 
     payload = {
-        "identifier": "BROADCAST_FB_QUICK_REPLIES",
         "users": [user_id],
         "message": {"text": processed_message},
     }
