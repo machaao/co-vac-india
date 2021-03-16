@@ -1,4 +1,4 @@
-# A simple dialogflow template for running a custom chatbot on your website
+# A basic dialogflow template for running a custom chatbot on your website
 
 ## Getting Started
 
@@ -29,7 +29,14 @@ MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> port
 MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 ```
 
-6. Running Server
+6. Running locally 
 ```bash
 machaao run -p 5000 -t <YOU-MESSENGERX-API-KEY>
 ```
+
+7. To run for production, please contact us via support@messengerx.io
+
+## Related Articles
+- https://blog.messengerx.io/tutorials/get-api-token-for-messengerx-io-chat-app-marketplace/
+- https://blog.messengerx.io/tutorials/build-deeply-personalized-chatbots-at-production-scale/
+- https://blog.messengerx.io/tutorials/build-an-ai-based-chatbot-for-your-website-app-using-wit-ai/
