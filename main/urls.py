@@ -1,12 +1,15 @@
 from main import app, machaao, dflow
 from flask import request, Response
-import os, json
+import os
+import json
 from .helper import custom_request_handler
+from .util import get_element_message
+
 
 @app.route('/')
 def test():
     query = request.args.get('text')
-    return dflow.detect_intent_texts(query)
+    return dflow.send_message(query, '12334')
 
 
 @app.route('/machaao/incoming', methods=["POST"])
@@ -17,7 +20,15 @@ def index():
     message = incoming_data["messaging"]
     message = message[0]["message_data"]["text"]
 
-    processed_message = dflow.detect_intent_texts(message, user_id)
+    processed_message = dflow.send_message(message, user_id)
+    
+    if processed_message.action == "input.carausel":
+        processed_message = get_element_message([{
+            "title": "This is the title",
+            "subtitle": "Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.",
+            "image_url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+        }])
+
     print(processed_message)
     # resp = processed_message["queryResult"]["fulfillmentText"]
 
@@ -34,6 +45,6 @@ def index():
 
     return Response(
         mimetype="application/json",
-        response=json.dumps({ "success": True, "message": response.text }),
+        response=json.dumps({"success": True, "message": response.text}),
         status=200,
     )

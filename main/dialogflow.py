@@ -4,8 +4,7 @@ from google.cloud import dialogflow
 
 
 class Dialogflow:
-    def __init__(self, AUTH_TOKEN, PROJECT_ID):
-        self.AUTH_TOKEN = AUTH_TOKEN
+    def __init__(self, PROJECT_ID):
         self.PROJECT_ID = PROJECT_ID
 
     def send_message(self, text, user_id, language_code="en"):
@@ -31,4 +30,5 @@ class Dialogflow:
                 response.query_result.intent_detection_confidence,
             )
         )
-        return response.query_result.fulfillment_text
+        print(response)
+        return response.query_result
