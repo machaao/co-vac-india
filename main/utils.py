@@ -7,28 +7,61 @@ def get_message(elements: list, buttons):
         fb_temp.add_element(element)
 
     if buttons:
-        fb_temp["quick_replies"] = []
+        payload = fb_temp.get_payload()
+        payload["quick_replies"] = buttons
+        return payload
 
-        for button in buttons:
-            fb_temp.quick_replies.append(button)
-    print(fb_temp.get_payload())
     return fb_temp.get_payload()
 
 
 def get_sample_carousal():
-    e1 = TemplateElement("Test #786 - Duffle Bag + 200 Machaao Credits",
-                         "Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.")
-    e1.add_image_url("https://provogue.s3.amazonaws.com/provogue-duffle1.jpg")
+    e1 = TemplateElement("Carousal #1 - Bird Graffiti",
+                         "Carousal test image")
+    e1.add_image_url(
+        "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg")
 
-    e2 = TemplateElement("Test #999 - Cricket Kit + 400 Machaao Credits",
-                         "Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.")
-    e2.add_image_url("https://provogue.s3.amazonaws.com/provogue-duffle1.jpg")
+    e2 = TemplateElement("Carousal #2 - Green Bird",
+                         "Carousal test image")
+    e2.add_image_url(
+        "https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg")
 
     e3 = TemplateElement("Test #1234 - Basketball Net + 600 Machaao Credits",
-                         "Only Pay Shipping & Handling Charges. Combo Offer for Machaao Users only.")
-    e3.add_image_url("https://provogue.s3.amazonaws.com/provogue-duffle1.jpg")
+                         "Carousal test image")
+    e3.add_image_url(
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSzc_znLHt_nbXtsMQgkSO-T0iUpMFrRLTYnjcC4MPIORfC3qd7lQObuaWf6qCOWrRXU&usqp=CAU")
 
-    return get_message([e1.get_element(), e2.get_element(), e3.get_element()], None)
+    buttons = []
+
+    buttons.append(
+        {
+            "content_type": "text",
+            "title": "Sample Text",
+            "payload": "Sample Text"
+        }
+    )
+    buttons.append(
+        {
+            "content_type": "text",
+            "title": "Sample Button",
+            "payload": "Sample Button"
+        }
+    )
+    buttons.append(
+        {
+            "content_type": "text",
+            "title": "Sample Image",
+            "payload": "Sample Image"
+        }
+    )
+    buttons.append(
+        {
+            "content_type": "text",
+            "title": "Sample Carousal",
+            "payload": "Sample Carousal"
+        }
+    )
+
+    return get_message([e1.get_element(), e2.get_element(), e3.get_element()], buttons)
 
 
 def get_welcome_msg():
@@ -61,7 +94,27 @@ def get_welcome_msg():
 
 def get_sample_text():
     payload = {
-        "text": "This is a sample text response"
+        "text": "This is a sample text response",
+        "quick_replies": [{
+            "content_type": "text",
+            "title": "Sample Text",
+            "payload": "Sample Text"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Button",
+            "payload": "Sample Button"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Image",
+            "payload": "Sample Image"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Carousal",
+            "payload": "Sample Carousal"
+        }]
     }
 
     return payload
@@ -81,10 +134,30 @@ def get_sample_button():
                 }, {
                     "title": "Source",
                     "type": "web_url",
-                    "url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                    "url": "https://image.shutterstock.com/image-vector/sample-stamp-grunge-texture-vector-260nw-1389188336.jpg"
                 }]
             }
-        }
+        },
+        "quick_replies": [{
+            "content_type": "text",
+            "title": "Sample Text",
+            "payload": "Sample Text"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Button",
+            "payload": "Sample Button"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Image",
+            "payload": "Sample Image"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Carousal",
+            "payload": "Sample Carousal"
+        }]
     }
 
     return payload
@@ -100,11 +173,31 @@ def get_sample_image():
                     {
                         "title": "This is Sample Image Response",
                         "subtitle": "Credits: 200",
-                        "image_url": "https://provogue.s3.amazonaws.com/provogue-duffle1.jpg"
+                        "image_url": "https://image.shutterstock.com/image-vector/sample-stamp-grunge-texture-vector-260nw-1389188336.jpg"
                     }
                 ]
             }
-        }
+        },
+        "quick_replies": [{
+            "content_type": "text",
+            "title": "Sample Text",
+            "payload": "Sample Text"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Button",
+            "payload": "Sample Button"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Image",
+            "payload": "Sample Image"
+        },
+            {
+            "content_type": "text",
+            "title": "Sample Carousal",
+            "payload": "Sample Carousal"
+        }]
     }
 
     return payload
