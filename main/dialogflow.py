@@ -1,6 +1,7 @@
 import requests
 import json
 from google.cloud import dialogflow
+from google.protobuf.json_format import MessageToDict
 
 
 class Dialogflow:
@@ -23,12 +24,11 @@ class Dialogflow:
         )
 
         print("=" * 20)
-        print("Query text: {}".format(response.query_result.query_text))
         print(
             "Detected intent: {} (confidence: {})\n".format(
                 response.query_result.intent.display_name,
                 response.query_result.intent_detection_confidence,
             )
         )
-        print(response)
-        return response.query_result
+
+        return response.query_result.intent.display_name
