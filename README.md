@@ -25,8 +25,9 @@ pip install -r requirements.txt
 Create file with name ```.env```
 ```bash
 GOOGLE_APPLICATION_CREDENTIALS=<YOUR_AUTH_KEY_PATH>
-MESSENGERX_API_TOKEN=<YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> portal.messengerx.io)
-MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
+MESSENGERX_API_TOKEN= <YOU-MESSENGERX-API-KEY> (Get a FREE DEV token from -> portal.messengerx.io)
+MESSENGERX_BASE_URL= https://ganglia-dev.machaao.com
+PROJECT_ID= <YOUR-DIALOGFLOW-PROJECT-ID>
 ```
 
 6. Running locally 
