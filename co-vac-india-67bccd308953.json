@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "co-vac-india",
+  "private_key_id": "67bccd308953392302f0e23557d75f4408b254a2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOBwLVIywEB8I9\n5Ij24j/cByaenlvp7v5B97n8w6roidVOZGZoaDodJV96phW6bY46NzIfAO+g9FwY\nrkcUIKCR2O/vSv1sJuoVbvzxh5pASonsYeqXJtZMxkVgTciq5+hJ7EBz1LqU1uXD\nJobSXFSol4yXG2lMchWO4Ycq/QHXRlGYCS01VnJPfp42VXYS1Y+7740hoQboyr+Y\ndQvfFUX3Wsdhe5w3rT9GkqPY/PafQSna0Ii3wiB6Aa9QydXQfYPCFbOblq5DOGt3\n/dmtIAQsiUJOKG+h7FEx3W+uJl6jBsNmJ242cVDBoHSH2fZOZ43yXJMQCE1jV6W5\nKy+OvfhFAgMBAAECggEAIoryYqHfA135pz7l597PLijUxMtwRayYXJ8YQ9Taltpl\nNRuIQAEZnUFi3MFz6ynrKr+OW7xgcPAHcOvnZuyBf3KL5+b+zl9H6AgPyL8fkZ/t\nuABCwMz2KTEk+JySBHWVcK93rvP/xGyzYSDYgfSRDSM7oyopYXPPQYF2lDKPWHRY\nvk7YhcsXL6JL6JYoT+O7bWhMuTXc9WbX0zjbmHymDMJkZ0VcPMm8W2CIUsZroJyu\nvZmaFMNS689AxxQtuHbMCVCPNtJAK5lGnjWbDpprlXatbIvmDp5IiAm0O5HttArW\nk1fLZ9hOhas47kocPyeSTzEw7exskN0S/np5RJB7gQKBgQDnsH7fuPNKrpo7pq/2\nb271ltxN/l8LmqbU89Efj03VmXcgJvnq0E41k0UMyflYPxJAFdmvjB2GmhBfnsh4\npooX/dDFd+d4DUxPXxyWZW6ualUZnouGyofAV4glfT6AE1M8WduhfpdWtuI0z5Gy\nkCN5z30ZYbikYUpDNwJ86LGW+QKBgQDjpTJbK5kvBTnabstoMwJvn1mmi9pNDWBG\n2wyDQJU+AozdJfaRY4EepI7U9GPsfl7USCvh4B/PG6DfWA1d/NVmu08Tbkwr6pbJ\ncoambpzf90VVEFDlnTuUtn7BEzhbrEx9HmnWO3IywA4lxu+UU0j7133mXTO80/oY\n5Y+uejUCrQKBgAL3UHh+vqabG6Bd3uzRumLsfn+FHSRh43bgdDHqPL3aTBseRJ7L\n8eRfsUebolSN4ibt4K6Npacee80tlDVvNF9gQXb1tQHlca+mcRA/1i3ncJV2YSTl\nnN1KgZSxSMaM+MjSAazMmRVkG/s/GQdnLv0VOe3EQX/hOvknUCHXPMbJAoGAGot2\n1b69vAfl+RyWR247SHzSXWNNb1Kx+VEtolhzjqmJd3gnykhKFCKoLRjaVgdeU26e\n/1W9H89e8Ow5ks4arEIHNILWCwDt2Euse9fGHy+cPBEM/dlZyzuEiEsPdVEgEi7r\ntHl2FYjjnXAXG7qidgtouOYBVHF7Zk/Oc0/4wnkCgYEA1PZFzDw5qy4O6W7a+ABu\n6xWhwEP50GjRWDoxDraWYd3sGk2MUkb4er5S1AtBL3hzo9wZpeseyOFp/d4xb1Jj\noFjrmZY7YdUbC8GaRp7a+LPRKUI5qne5G1y88WTC7T97o2mOi/wB9nZLJvvou7au\nxDGEsarnCirzUnQ9n0weuEc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cvi-prod@co-vac-india.iam.gserviceaccount.com",
+  "client_id": "101064075608011627451",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cvi-prod%40co-vac-india.iam.gserviceaccount.com"
+}

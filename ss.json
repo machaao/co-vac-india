@@ -1,0 +1,2436 @@
+{
+  "centers": [
+    {
+      "center_id": 643178,
+      "name": "Gaighat HSC Kanta",
+      "address": "Kanta Gaighat",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Gayghat",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ef3384b0-d0c1-4c65-b49c-a4ee5117f007",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 623916,
+      "name": "Kanti APHC Lasgaripur",
+      "address": "Lasgaripur Kanti",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "668f53f6-effd-41f1-ad3e-ca3928181024",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697778,
+      "name": "Katra 18 MS Katra",
+      "address": "Katra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Katra",
+      "pincode": 843321,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "32e0d12e-44ce-4ff6-b4b1-40fbbfd7fd50",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624226,
+      "name": "APHC Jeeta Chhapra",
+      "address": "Jeeta Chhapra Sahebganj",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Sahebganj",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "9cec8793-c449-4545-b0ff-adaf4b11f792",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697783,
+      "name": "Minapur 18 MS Minapur",
+      "address": "Minapur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Minapur",
+      "pincode": 843128,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "24e8e399-31c7-4006-b41d-76c24da62761",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 682324,
+      "name": "Aurai HSC Shahi Minapur",
+      "address": "Shahi Minapur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Aurai",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2b278d61-ef5a-48b3-a177-ad98629f2be5",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697787,
+      "name": "Muraul 18 HS Muraul",
+      "address": "Muraul",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Muraul",
+      "pincode": 843121,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "15485b31-ee36-47d2-9da0-e36e490e35ea",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 561637,
+      "name": "Bochahan CHC 45 Plus",
+      "address": "Bochahan",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bochaha",
+      "pincode": 843103,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7100d007-b061-4847-921f-493f0d1a199b",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 660959,
+      "name": "Kanti HSC Kolhua Bairiya",
+      "address": "Kolhua Bairiya Kanti",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2c3c552e-947c-4dc3-ab65-ff448186900a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 645033,
+      "name": "Bochahan APHC Kafen",
+      "address": "Kafen Bochahan",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bochaha",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "238d4f35-e34f-48c1-b81c-14a7ae5ccaed",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624215,
+      "name": "Paroo APHC Gokhula",
+      "address": "Gokhula Paroo",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Paroo",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "769f33d6-722e-43fa-b8e5-cbe358e4f064",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 694255,
+      "name": "Paroo APHC Sarmastpur",
+      "address": "Sarmastpur Paroo",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Paroo",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 84,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "50229c52-64a5-4c95-8334-112015759435",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        },
+        {
+          "session_id": "12418a06-68d7-412f-90a2-5dc96757083f",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 616384,
+      "name": "Sadar Hospital (3)",
+      "address": "Sadar Hospital",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f6165ae1-a8fc-4f45-8075-8f50cb22cc41",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "b6c677d4-a8c6-43f8-9046-488368cd6330",
+          "date": "12-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "406b2994-47c9-41a4-8f30-93844df4dc2b",
+          "date": "13-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "d9f9bce3-a42d-4b09-acb3-dbf175000cb3",
+          "date": "14-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "a4dce56e-b306-4e52-b91f-64428438493f",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "a44dbe8e-57af-490a-9660-eff16317958d",
+          "date": "16-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "5a82202f-e053-4bbc-a377-c57811205295",
+          "date": "17-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 582496,
+      "name": "Sadar Hospital 4",
+      "address": "Sadar Hospital",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 25,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3bff28c5-0d25-4a4d-9ce1-61330ee45aab",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 693092,
+      "name": "Kudhani HSC Silaut",
+      "address": "Silaut Kudhani",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kudhani",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4fb9e05d-5543-4d6e-8b3a-95a674300a13",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697782,
+      "name": "Marwan 18 Mawan",
+      "address": "Marwan",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Marwan",
+      "pincode": 843113,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "0ba8aca4-97b3-4433-8083-1e3d906ef467",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 676395,
+      "name": "Motipur PB Baruraj West",
+      "address": "Baruraj West Motipur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Motipur",
+      "pincode": 842002,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "0d787513-96b9-4ffc-8a7d-75874b07a817",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 521308,
+      "name": "Sahebganj CHC 45 Plus",
+      "address": "Sahebganj",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Sahebganj",
+      "pincode": 843125,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "40dc6fde-974e-42d9-acdb-91200e1d29f8",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698876,
+      "name": "Katra HSC Dhanaur",
+      "address": "DhanaurKatra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Katra",
+      "pincode": 843321,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "dbbf48e9-8987-410c-bb0b-0d6ff9de9469",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643186,
+      "name": "Kudhani APHC Kharauna Dih",
+      "address": "Kharauna Dih Kudhani",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kudhani",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "27c809aa-500f-4d26-92bf-b3af72111278",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643243,
+      "name": "Muraul HSC Khaspatti",
+      "address": "Khaspatti Muraul",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Muraul",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "fab8335b-d97f-4ba0-b276-4496a44a563e",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 521664,
+      "name": "Saraiya CHC 45 Plus",
+      "address": "Saraiya",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Saraiya",
+      "pincode": 843126,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "305fa4f8-3e46-4158-96ce-9a0c6a62db71",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697788,
+      "name": "Mushahari 18 UMS Mushahari",
+      "address": "Mushahari",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 843123,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2d82a74e-a422-48a8-8755-208c9984f0a8",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 676534,
+      "name": "Saraiya HSC HARIHARPUR",
+      "address": "HSC HARIHARPUR SARAIYA",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Saraiya",
+      "pincode": 842004,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2a60b30c-c14d-4ffb-bed6-dd91989f4056",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698200,
+      "name": "Bandra HSC Madhaiya",
+      "address": "Madhaiya Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c54cf350-0da6-400a-a68a-be4fedd5a819",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643168,
+      "name": "Bandra APHC Sakriman",
+      "address": "Sakraman Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a5d907e1-1290-40d1-8f96-ca96f8502812",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624017,
+      "name": "Minapur APHC Panapur",
+      "address": "Panapur Minapur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Minapur",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f1f286df-ef5f-4f5f-ad64-92a39611973d",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643185,
+      "name": "Kudhani APHC Chandrahatti",
+      "address": "Chandrahatti Kudhani",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kudhani",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bae59cd4-576f-4b77-ac9f-6994d2decbe0",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 676380,
+      "name": "Motipur PB Hardi",
+      "address": "Hardi Motipur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Motipur",
+      "pincode": 842002,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "802910e2-774c-44c1-9362-b5297f7c189e",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697776,
+      "name": "Kanti 18 MS Kanti",
+      "address": "Kanti",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 843109,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f7a85264-d083-4bd5-81d0-a4c7f1964ae7",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 699141,
+      "name": "HSC Baidhnathpur",
+      "address": "HSC Baidhnathpur Sahebganj",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Sahebganj",
+      "pincode": 843125,
+      "lat": 26,
+      "long": 84,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4b662146-d4b0-4646-9d26-854d0afb43bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624231,
+      "name": "APHC Manain",
+      "address": "Manain APHC",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Sahebganj",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e5aa6a4a-31b9-43fd-95b5-57706f43417e",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697808,
+      "name": "Saraiya 18 HS Manikpur",
+      "address": "Saraiya",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Saraiya",
+      "pincode": 843126,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4b20a7c7-8287-4b2a-a742-a6f1cbe98ac3",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624209,
+      "name": "Paroo APHC Deoria",
+      "address": "Deoria Paroo",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Paroo",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "501d2d2e-5b7d-4511-8576-8e3d74212ff1",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 521668,
+      "name": "Marwan PHC 45 Plus",
+      "address": "Marwan",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Marwan",
+      "pincode": 843113,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "a121284f-41ed-410e-8e14-019257e0e97c",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 694690,
+      "name": "Bandra HSC Mohanpur",
+      "address": "Mohanpur Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "37683d3e-5ec3-4899-9013-fad1589b38e4",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 547807,
+      "name": "Kanti CHC 45 Plus",
+      "address": "Kanti",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 843109,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ca2bc1bf-1ddd-491f-95d4-c2e80e51b610",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 698161,
+      "name": "SKMCH 18 Plus",
+      "address": "Uma Nagar",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842004,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d5715e40-833e-4132-bb9f-1e0b57188fe0",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 655962,
+      "name": "UPHC Kanhauli",
+      "address": "Kanhauli Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3a97b96a-aea7-46da-8b67-6077145049c9",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 664228,
+      "name": "APHC Dharphari",
+      "address": "Dharphari Paroo",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Paroo",
+      "pincode": 843112,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "ea3acbe7-fbe5-43bd-9e38-1fd92be32aba",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        },
+        {
+          "session_id": "221dcf39-1087-4083-8fc4-0484658510bb",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643207,
+      "name": "Mushahari HSC Gobarsahi",
+      "address": "Gobarsahi Mushahari",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "80a33cc6-ce55-468b-828a-9bcee0efff0e",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 658467,
+      "name": "Gaighat HSC Maheshwara",
+      "address": "Maheshwara Gaighat",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Gayghat",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "aafa2efb-e9f4-46fd-b7a8-4dd460b2c2fc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 679267,
+      "name": "Railway Health Centre",
+      "address": "Imli Chatti, Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c6a705af-76f5-42be-befe-d0fed93e94fb",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "dee4b0ed-6d4e-43b8-a3ad-9074f3ad2507",
+          "date": "12-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "20ea6075-087e-47e6-82b8-b84f44074654",
+          "date": "13-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "57180192-0233-4d39-9a31-5293c1ac1f92",
+          "date": "14-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697785,
+      "name": "Motipur 18 MS Motipur",
+      "address": "Motipur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Motipur",
+      "pincode": 843132,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f6c73a5f-f961-4fdd-adb2-e2968eda073a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 691928,
+      "name": "Saraiya HSC Dubiyahi",
+      "address": "Dubiyahi Saraiya",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Saraiya",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e6df7231-38c1-410a-897f-c7e2098626c6",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 699055,
+      "name": "Motipur MS Korigawan",
+      "address": "Korigawan Motipur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Motipur",
+      "pincode": 842001,
+      "lat": 25,
+      "long": 84,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d2285f21-5b67-47cd-aadc-e95739af58bd",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 623882,
+      "name": "Bandra APHC Rampur Dayal",
+      "address": "Rampur Dayal Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c06d3bdd-c5ae-45cc-8392-801bee48c6a6",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 691935,
+      "name": "Bandra HSC Ghosrawan",
+      "address": "Ghosrawan Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d8880b9a-e347-4d17-ab6f-f186950e5e16",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696555,
+      "name": "Kanti Sudha Dairy",
+      "address": "Kanti Sadatpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 843109,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c6433fee-2d75-4868-9ff6-8dd7daa112d1",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 658471,
+      "name": "Minapur HSC Zamin Mathiya",
+      "address": "Zamin Mathiya Minapur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Minapur",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "bd5e0e04-d661-414a-96ae-a919268fd29a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 561699,
+      "name": "Kudhani CHC 45 Plus",
+      "address": "Kudhani",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kudhani",
+      "pincode": 844120,
+      "lat": 25,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "7a281bd9-188d-42ea-bc38-b8d39ce21649",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 648807,
+      "name": "Katra HSC Shivdaspur",
+      "address": "Shivdaspur Katra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Katra",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "517215bf-399e-4273-aecf-7bd71d375fc8",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696962,
+      "name": "Aurai 18 HS Ram Jivar",
+      "address": "Aurai",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Aurai",
+      "pincode": 843312,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "4d4283e4-c603-4764-9a54-e8911bd0e77c",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 696969,
+      "name": "Bochahan 18 HS Parasnath",
+      "address": "Bochahan",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bochaha",
+      "pincode": 843103,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "698a9aae-d231-4188-8dea-2792b032e077",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 681956,
+      "name": "Jubba Sahni Park",
+      "address": "Near Auditorium Jubba Sahni Park",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842002,
+      "lat": 27,
+      "long": 77,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "816c6c38-cbf0-441e-ba03-0cce59d7f9ac",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "9fb18c32-2042-4e47-871c-48ab7c326516",
+          "date": "12-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "b8848b16-dd88-414a-a5ca-523b1927947c",
+          "date": "13-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "3ce33246-2173-4b34-ac89-53f4035733d7",
+          "date": "14-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "e3776fbc-f1ba-4a89-87ac-009a807accfd",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "682e4f25-7309-4dfe-9888-353c123f1253",
+          "date": "16-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "92fb8519-dc0c-4a3a-8688-4cf2fd0b75a5",
+          "date": "17-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697800,
+      "name": "Sahebganj 18 BRC Building",
+      "address": "Sahebganj",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Sahebganj",
+      "pincode": 843125,
+      "lat": 26,
+      "long": 84,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "72e15ae6-657a-4f75-a972-e9a49007b306",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 691349,
+      "name": "Muraul HS Pilkhi",
+      "address": "Pilkhi Muraul",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Muraul",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "10813ce0-b4cd-4706-8b43-337111605bbc",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 624272,
+      "name": "Saraiya APHC Ajijpur Belwar",
+      "address": "Ajijpur Belwar",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Saraiya",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "1623c81e-dc46-47a6-9331-fae0f5692b06",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 643209,
+      "name": "APHC Daudpur",
+      "address": "Daudpur, Paroo",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Paroo",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "2eb03667-6a4d-429a-93a8-5c7816a25cee",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 676696,
+      "name": "Kudhani HSC Purusottampur",
+      "address": "Purusottampur Kudhani",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Marwan",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "f428574f-d686-4cfe-9684-381140a7f9b8",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 677096,
+      "name": "Bandra HSC Tepri",
+      "address": "Tepri Bandra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Bandra",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "b365d419-7d2f-48d6-a0ae-bdc8860c5baf",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 623876,
+      "name": "Aurai APHC Sarhachiya",
+      "address": "Sarhachiya Aurai",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Aurai",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "68ae001a-7c95-4ed6-a9c2-e33a67d7a716",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 623931,
+      "name": "Katra APHC Jajuar",
+      "address": "Jajuar Katra",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Katra",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c46a65f4-b598-45b6-a05a-87d4941673ca",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 690573,
+      "name": "Motipur HSC Bariyarpur",
+      "address": "Bariyarpur Motipur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Motipur",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c4cc9226-b261-4033-9dc4-197f916a2e1f",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 519748,
+      "name": "Aurai CHC 45 Plus",
+      "address": "Aurai",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Aurai",
+      "pincode": 843312,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "3af6e377-b45d-4a40-abdb-a4706708904c",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 650577,
+      "name": "Kanti HSC Damodarpur",
+      "address": "Damodarpur Kanti",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Kanti",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "85c4e779-3d64-4934-b020-e86f8f32bf8a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 697840,
+      "name": "Urban 18 Red Cross",
+      "address": "Company Bagh",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "8a738810-0bb8-44b9-a7e2-00d2f84e43ce",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 663909,
+      "name": "Aurai HSC Bhadai",
+      "address": "Bhadai Aurai",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Aurai",
+      "pincode": 842001,
+      "lat": 25,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "c82ddfaf-1079-458a-a26c-efe9cb738d9a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 328352,
+      "name": "Sadar Hospital 1",
+      "address": "Sadar Hospital Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "10:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e472fbd9-e354-44a8-aa3b-87e27c5ff47a",
+          "date": "11-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-12:00PM",
+            "12:00PM-02:00PM",
+            "02:00PM-04:00PM",
+            "04:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 676937,
+      "name": "Civil Court",
+      "address": "Civil Court Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "953ef300-9a6f-4a1e-9c7e-b079b984fa63",
+          "date": "12-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "e9d90bbc-9fe3-4e2b-b33f-9ef642b75eb0",
+          "date": "13-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "5d8433f7-db29-434e-b510-a0121cd816f5",
+          "date": "14-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "05fe7e4e-8d0e-47fe-8e91-c5110d245f64",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "aa2127ee-2f24-469a-bdeb-d0b15ec40584",
+          "date": "16-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        },
+        {
+          "session_id": "5aeed1a4-b067-4e50-99df-b94c477c501a",
+          "date": "17-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 682809,
+      "name": "Gaighat HSC Bhushra",
+      "address": "Bhushra, Gaighat",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Gayghat",
+      "pincode": 842001,
+      "lat": 0,
+      "long": 0,
+      "from": "09:00:00",
+      "to": "17:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "35fa65a8-a9eb-4268-b6c5-1ee8ee8ffbfb",
+          "date": "13-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-05:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 584830,
+      "name": "SKMCH (Covishield)",
+      "address": "SKMCH, Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842004,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "e26458c4-c249-4152-8932-d77e63db09c0",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 521665,
+      "name": "Sadar Hospital2",
+      "address": "Sadar Hospital, Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842001,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "5ab352f1-f08a-4bf0-97ad-363b6d3f87d8",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    },
+    {
+      "center_id": 561610,
+      "name": "SKMCH (Covaxin)",
+      "address": "SKMCH, Muzaffarpur",
+      "state_name": "Bihar",
+      "district_name": "Muzaffarpur",
+      "block_name": "Mushahari",
+      "pincode": 842004,
+      "lat": 26,
+      "long": 85,
+      "from": "09:00:00",
+      "to": "18:00:00",
+      "fee_type": "Free",
+      "sessions": [
+        {
+          "session_id": "d60fc2cf-0dde-4a41-9f0a-23b17409fd98",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 45,
+          "vaccine": "COVAXIN",
+          "slots": [
+            "09:00AM-11:00AM",
+            "11:00AM-01:00PM",
+            "01:00PM-03:00PM",
+            "03:00PM-06:00PM"
+          ]
+        }
+      ]
+    }
+  ]
+}

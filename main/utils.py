@@ -1,4 +1,6 @@
 from df_template.fb_temp_lib import *
+from main import cowin
+import json
 
 
 def get_message(elements: list, buttons):
@@ -12,6 +14,52 @@ def get_message(elements: list, buttons):
         return payload
 
     return fb_temp.get_payload()
+
+
+def get_state_buttons():
+    states = cowin.get_states()
+    states = states["states"]
+
+    buttons = []
+    for state in states:
+        buttons.append(
+            {
+                "content_type": "text",
+                "title": state['state_name'],
+                "payload": f'/State {state["state_id"]}'
+            }
+        )
+    return buttons
+
+def get_city_buttons(state_id):
+    districts = cowin.get_districts(state_id)
+    districts = districts["districts"]
+
+    buttons = []
+    for district in districts:
+        buttons.append(
+            {
+                "content_type": "text",
+                "title": district['district_name'],
+                "payload": f'/City {district["district_id"]}'
+            }
+        )
+    return buttons
+
+def get_avail_carousel(district_id):
+    availy = cowin.get_availability_by_district(district_id)
+    availy = availy["centers"]
+
+    buttons = []
+    # for district in districts:
+    #     buttons.append(
+    #         {
+    #             "content_type": "text",
+    #             "title": district['district_name'],
+    #             "payload": f'/City {district["district_id"]}'
+    #         }
+    #     )
+    return buttons
 
 
 def get_sample_carousal():
@@ -66,26 +114,16 @@ def get_sample_carousal():
 
 def get_welcome_msg():
     payload = {
-        "text": "Hey! I am DialogFlow Sample Bot. Here are some sample supported commands",
+        "text": "Hey! I am Co-Vac Bot. Get and set remainder on vaccination details by talking to me",
         "quick_replies": [{
             "content_type": "text",
-            "title": "Sample Text",
-            "payload": "Sample Text"
+            "title": "Get Info By City/Pin",
+            "payload": "/CityPin"
         },
             {
             "content_type": "text",
-            "title": "Sample Button",
-            "payload": "Sample Button"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Image",
-            "payload": "Sample Image"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Carousal",
-            "payload": "Sample Carousal"
+            "title": "Set Remainder",
+            "payload": "/SetRemainder"
         }]
     }
 
