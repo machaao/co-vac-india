@@ -1,0 +1,31 @@
+{
+  "users": ["qW5rn6itHA"],
+  "message": {
+    "type": "template",
+    "payload": {
+      "template_type": "generic",
+      "elements": [
+        {
+          "title": "Gaighat HSC Kanta | Kanta Gaighat",
+          "subtitle": "Free | 45+",
+          "image_url": "https://raw.githubusercontent.com/machaao/co-vac-india/main/images/COVISHIELD.jpg"
+        },
+        {
+          "title": "Kanti APHC Lasgaripur | Lasgaripur Kanti",
+          "subtitle": "Free | 45+",
+          "image_url": "https://raw.githubusercontent.com/machaao/co-vac-india/main/images/COVISHIELD.jpg"
+        },
+        {
+          "title": "Katra 18 MS Katra | Katra",
+          "subtitle": "Free | 18+",
+          "image_url": "https://raw.githubusercontent.com/machaao/co-vac-india/main/images/COVISHIELD.jpg"
+        },
+        {
+          "title": "APHC Jeeta Chhapra | Jeeta Chhapra Sahebganj",
+          "subtitle": "Free | 45+",
+          "image_url": "https://raw.githubusercontent.com/machaao/co-vac-india/main/images/COVISHIELD.jpg"
+        }
+      ]
+    }
+  }
+}

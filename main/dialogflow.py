@@ -31,6 +31,4 @@ class Dialogflow:
             )
         )
 
-        print(response.query_result)
-
-        return response.query_result.intent.display_name
+        return response.query_result

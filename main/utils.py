@@ -1,6 +1,5 @@
 from df_template.fb_temp_lib import *
-from main import cowin
-import json
+from main import cowin, machaao
 
 
 def get_message(elements: list, buttons):
@@ -31,6 +30,7 @@ def get_state_buttons():
         )
     return buttons
 
+
 def get_city_buttons(state_id):
     districts = cowin.get_districts(state_id)
     districts = districts["districts"]
@@ -46,70 +46,70 @@ def get_city_buttons(state_id):
         )
     return buttons
 
+
 def get_avail_carousel(district_id):
     availy = cowin.get_availability_by_district(district_id)
+    print(availy)
     availy = availy["centers"]
 
-    buttons = []
-    # for district in districts:
-    #     buttons.append(
-    #         {
-    #             "content_type": "text",
-    #             "title": district['district_name'],
-    #             "payload": f'/City {district["district_id"]}'
-    #         }
-    #     )
-    return buttons
-
-
-def get_sample_carousal():
-    e1 = TemplateElement("Carousal #1 - Bird Graffiti",
-                         "Carousal test image")
-    e1.add_image_url(
-        "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg")
-
-    e2 = TemplateElement("Carousal #2 - Green Bird",
-                         "Carousal test image")
-    e2.add_image_url(
-        "https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg")
-
-    e3 = TemplateElement("Test #1234 - Basketball Net + 600 Machaao Credits",
-                         "Carousal test image")
-    e3.add_image_url(
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSzc_znLHt_nbXtsMQgkSO-T0iUpMFrRLTYnjcC4MPIORfC3qd7lQObuaWf6qCOWrRXU&usqp=CAU")
-
-    buttons = []
-
-    buttons.append(
-        {
-            "content_type": "text",
-            "title": "Sample Text",
-            "payload": "Sample Text"
+    elements = []
+    for avail_data in availy:
+        if avail_data["sessions"][0]["available_capacity"] != 0:
+            elements.append(
+                {
+                    "title": f'{avail_data["name"]} | Slots: {avail_data["sessions"][0]["available_capacity"]} | {avail_data["fee_type"]} | Age: {avail_data["sessions"][0]["min_age_limit"]}+',
+                    "subtitle": f'',
+                    "image_url": f"https://raw.githubusercontent.com/machaao/co-vac-india/main/images/{avail_data['sessions'][0]['vaccine']}.jpg",
+                    "buttons": [{
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": f"https://co-vac-webview.vercel.app/vaccines/india/city/{district_id}"
+                    }]
+                }
+            )
+    if len(elements) > 0:
+        attachment = {
+            "type": "template",
+            "payload": {
+                "template_type": "generic",
+                "elements": elements
+            }
         }
-    )
-    buttons.append(
-        {
-            "content_type": "text",
-            "title": "Sample Button",
-            "payload": "Sample Button"
-        }
-    )
-    buttons.append(
-        {
-            "content_type": "text",
-            "title": "Sample Image",
-            "payload": "Sample Image"
-        }
-    )
-    buttons.append(
-        {
-            "content_type": "text",
-            "title": "Sample Carousal",
-            "payload": "Sample Carousal"
-        }
-    )
+        return {"attachment": attachment}
 
-    return get_message([e1.get_element(), e2.get_element(), e3.get_element()], buttons)
+    return {"text": "No Slots Available In Your City"}
+
+
+def get_avail_carousel_by_pin(pin):
+    availy = cowin.get_availability_by_pincode(pin_code=pin)
+    availy = availy["centers"]
+
+    elements = []
+    for avail_data in availy:
+        if avail_data["sessions"][0]["available_capacity"] != 0:
+            elements.append(
+                {
+                    "title": f'{avail_data["name"]} | Slots: {avail_data["sessions"][0]["available_capacity"]} | {avail_data["fee_type"]} | Age: {avail_data["sessions"][0]["min_age_limit"]}+',
+                    "subtitle": f'',
+                    "image_url": f"https://raw.githubusercontent.com/machaao/co-vac-india/main/images/{avail_data['sessions'][0]['vaccine']}.jpg",
+                    "buttons": [{
+                        "title": "View Details",
+                        "type": "web_url",
+                        "url": f"https://co-vac-webview.vercel.app/vaccines/india/city/{pin}"
+                    }]
+                }
+            )
+    if len(elements) > 0:
+        attachment = {
+            "type": "template",
+            "payload": {
+                "template_type": "generic",
+                "elements": elements
+            }
+        }
+        return {"attachment": attachment}
+
+    return {"text": "No Slots Available In Your City"}
 
 
 def get_welcome_msg():
@@ -119,123 +119,90 @@ def get_welcome_msg():
             "content_type": "text",
             "title": "Get Info By City/Pin",
             "payload": "/CityPin"
-        },
-            {
+        }, {
             "content_type": "text",
-            "title": "Set Remainder",
-            "payload": "/SetRemainder"
+            "title": "Notify Me",
+            "payload": "/NotifyMe"
+        }, {
+            "content_type": "text",
+            "title": "Mute",
+            "payload": "/Mute"
         }]
     }
 
     return payload
 
 
-def get_sample_text():
+def register_user_notify():
     payload = {
-        "text": "This is a sample text response",
-        "quick_replies": [{
-            "content_type": "text",
-            "title": "Sample Text",
-            "payload": "Sample Text"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Button",
-            "payload": "Sample Button"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Image",
-            "payload": "Sample Image"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Carousal",
-            "payload": "Sample Carousal"
-        }]
+        "text": "You will be notified when there is a slot available at your location 😃"
     }
 
     return payload
 
 
-def get_sample_button():
-    payload = {
-        "attachment": {
-            "type": "template",
-            "payload": {
-                "template_type": "button",
-                "text": "Hi, This is a sample button response",
-                "buttons": [{
-                    "title": "Hi",
-                    "type": "postback",
-                    "payload": "hi"
-                }, {
-                    "title": "Source",
-                    "type": "web_url",
-                    "url": "https://image.shutterstock.com/image-vector/sample-stamp-grunge-texture-vector-260nw-1389188336.jpg"
-                }]
-            }
-        },
-        "quick_replies": [{
+def get_quick_reply_after_avail(city_id, pin):
+    qr = []
+
+    if city_id:
+        qr = [{
             "content_type": "text",
-            "title": "Sample Text",
-            "payload": "Sample Text"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Button",
-            "payload": "Sample Button"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Image",
-            "payload": "Sample Image"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Carousal",
-            "payload": "Sample Carousal"
+            "title": "Set Notification",
+            "payload": f"/SetNotif City {city_id}"
         }]
+        # , {
+        #     "content_type": "url",
+        #     "title": "View Details",
+        #     "payload": f"https://co-vac-webview.vercel.app/vaccines/india/city/{city_id}"
+        # }
+        # ]
+
+    else:
+        qr = [{
+            "content_type": "text",
+            "title": "Set Notification",
+            "payload": f"/SetNotif PIN {pin}"
+        }]
+        # {
+        #     "content_type": "url",
+        #     "title": "View Details",
+        #     "payload": f"https://co-vac-webview.vercel.app/vaccines/india/city/{pin}"
+        # }]
+
+    return qr
+
+
+def user_subscribe(city_id, city_name, user_id):
+    tag_payload = {
+        "tag": "city",
+        "status": 1,
+        "values": [city_id],
+        "displayName": city_name
+    }
+    machaao.set_tag_to_user(tag_payload, user_id)
+
+    task_endpoint = '/v1/tasks/' + user_id
+    task_payload = {
+        "function": "machaao/cron",
+	    "frequency": "0 0/1 * 1/1 * ? *",
+        "status": -1
+    }
+    machaao.send_request(task_endpoint, task_payload)
+
+
+def user_unsubscribe(user_id):
+    untag_endpoint = "/v1/users/tag/" + user_id
+    untag_payload = {
+        "tag": "city",
+        "statue": 0
+    }
+    machaao.send_request(untag_endpoint, untag_payload)
+
+    task_endpoint = "/v1/tasks/" + user_id
+    task_payload = {
+        "function": "machaao/cron",
+	    "frequency": "0 0/1 * 1/1 * ? *",
+        "status": 1
     }
 
-    return payload
-
-
-def get_sample_image():
-    payload = {
-        "attachment": {
-            "type": "template",
-            "payload": {
-                "template_type": "generic",
-                "elements": [
-                    {
-                        "title": "This is Sample Image Response",
-                        "subtitle": "Credits: 200",
-                        "image_url": "https://image.shutterstock.com/image-vector/sample-stamp-grunge-texture-vector-260nw-1389188336.jpg"
-                    }
-                ]
-            }
-        },
-        "quick_replies": [{
-            "content_type": "text",
-            "title": "Sample Text",
-            "payload": "Sample Text"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Button",
-            "payload": "Sample Button"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Image",
-            "payload": "Sample Image"
-        },
-            {
-            "content_type": "text",
-            "title": "Sample Carousal",
-            "payload": "Sample Carousal"
-        }]
-    }
-
-    return payload
+    machaao.send_request(task_endpoint, task_payload)
