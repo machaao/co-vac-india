@@ -49,7 +49,6 @@ def get_city_buttons(state_id):
 
 def get_avail_carousel(district_id):
     availy = cowin.get_availability_by_district(district_id)
-    print(availy)
     availy = availy["centers"]
 
     elements = []
@@ -117,15 +116,15 @@ def get_welcome_msg():
         "text": "Hey! I am Co-Vac Bot. Get and set remainder on vaccination details by talking to me",
         "quick_replies": [{
             "content_type": "text",
-            "title": "Get Info By City/Pin",
+            "title": "Get Info By City/Pin ℹ️",
             "payload": "/CityPin"
         }, {
             "content_type": "text",
-            "title": "Notify Me",
+            "title": "Notify Me 🔔",
             "payload": "/NotifyMe"
         }, {
             "content_type": "text",
-            "title": "Mute",
+            "title": "Mute 🤫",
             "payload": "/Mute"
         }]
     }
