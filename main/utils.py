@@ -183,7 +183,7 @@ def user_subscribe(city_id, city_name, user_id):
     task_endpoint = '/v1/tasks/' + user_id
     task_payload = {
         "function": "machaao/cron",
-	    "frequency": "0 0/1 * 1/1 * ? *",
+	    "frequency": "0 0 0/1 1/1 * ? *",
         "status": -1
     }
     machaao.send_request(task_endpoint, task_payload)
@@ -200,7 +200,7 @@ def user_unsubscribe(user_id):
     task_endpoint = "/v1/tasks/" + user_id
     task_payload = {
         "function": "machaao/cron",
-	    "frequency": "0 0/1 * 1/1 * ? *",
+	    "frequency": "0 0 0/1 1/1 * ? *",
         "status": 1
     }
 
